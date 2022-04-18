@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: 100;
+    /* background: radial-gradient(#8839a2,#1f1013); */
+    background: radial-gradient(#000000,#1f1013);
+    -webkit-overflow-Y: hidden;
+    -moz-overflow-Y: hidden;
+    -o-overflow-Y: hidden;
+    overflow-y: hidden;
+    -webkit-animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
+}
+
+.light {
+    position: absolute;
+    width: 0px;
+    opacity: .75;
+    background-color: white;
+    box-shadow: #e9f1f1 0px 0px 20px 2px;
+    opacity: 0;
+    top: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.x1{
+  -webkit-animation: floatUp 4s infinite linear;
+  -moz-animation: floatUp 4s infinite linear;
+  -o-animation: floatUp 4s infinite linear;
+  animation: floatUp 4s infinite linear;
+   -webkit-transform: scale(1.0);
+   -moz-transform: scale(1.0);
+   -o-transform: scale(1.0);
+  transform: scale(1.0);
+}
+
+.x2{
+  -webkit-animation: floatUp 7s infinite linear;
+  -moz-animation: floatUp 7s infinite linear;
+  -o-animation: floatUp 7s infinite linear;
+  animation: floatUp 7s infinite linear;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
+  left: 15%;
+}
+
+.x3{
+  -webkit-animation: floatUp 2.5s infinite linear;
+  -moz-animation: floatUp 2.5s infinite linear;
+  -o-animation: floatUp 2.5s infinite linear;
+  animation: floatUp 2.5s infinite linear;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -o-transform: scale(.5);
+  transform: scale(.5);
+  left: -15%;
+}
+
+.x4{
+  -webkit-animation: floatUp 4.5s infinite linear;
+  -moz-animation: floatUp 4.5s infinite linear;
+  -o-animation: floatUp 4.5s infinite linear;
+  animation: floatUp 4.5s infinite linear;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  left: -34%;
+}
+
+.x5{
+  -webkit-animation: floatUp 8s infinite linear;
+  -moz-animation: floatUp 8s infinite linear;
+  -o-animation: floatUp 8s infinite linear;
+  animation: floatUp 8s infinite linear;
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  transform: scale(2.2);
+  left: -57%;
+}
+
+.x6{
+  -webkit-animation: floatUp 3s infinite linear;
+  -moz-animation: floatUp 3s infinite linear;
+  -o-animation: floatUp 3s infinite linear;
+  animation: floatUp 3s infinite linear;
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+  left: -81%;
+}
+
+.x7{
+  -webkit-animation: floatUp 5.3s infinite linear;
+  -moz-animation: floatUp 5.3s infinite linear;
+  -o-animation: floatUp 5.3s infinite linear;
+  animation: floatUp 5.3s infinite linear;
+  -webkit-transform: scale(3.2);
+  -moz-transform: scale(3.2);
+  -o-transform: scale(3.2);
+  transform: scale(3.2);
+  left: 37%;
+}
+
+.x8{
+  -webkit-animation: floatUp 4.7s infinite linear;
+  -moz-animation: floatUp 4.7s infinite linear;
+  -o-animation: floatUp 4.7s infinite linear;
+  animation: floatUp 4.7s infinite linear;
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);
+  left: 62%;
+}
+
+.x9{
+  -webkit-animation: floatUp 4.1s infinite linear;
+  -moz-animation: floatUp 4.1s infinite linear;
+  -o-animation: floatUp 4.1s infinite linear;
+  animation: floatUp 4.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: 85%;
+}
+
+
+@-webkit-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-moz-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-o-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-moz-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-o-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@-o-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+@-o-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+@keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+.bars {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 101;
+    padding-top:9px;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  span::before,
+  span::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+  }
+  
+  .bar::before {
+    transform: translateY(-9px);
+  }
+  
+  .bar::after {
+    transform: translateY(9px);
+  }
+  
+  .bars.active .bar {
+    background-color: transparent;
+  }
+  
+  .bars.active span::before {
+    animation: top-bar 1s;
+    animation-fill-mode: forwards;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .bars.active span::after {
+    animation: bottom-bar 1s;
+    animation-fill-mode: forwards;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  /* Navbar Links CSS */
+  
+  #nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0;
+  }
+  
+  #nav a {
+    color: #1f1013;;
+    text-decoration: none;
+    line-height: 70vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-indent: 50vw;
+    border-radius: 50%;
+    transition: all .5s;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  #nav a:hover {
+    /* background: #357FFD; */
+    background: #00000083;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .visible {
+    z-index: 100 !important;
+    opacity: 1 !important;
+  }
+  
+  .shape-circle {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    top: -10vw;
+    right: -10vw;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    /* background: #2979FF; */
+    background-color:rgba(255,255,255,.8);
+    box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);
+  }
+  
+  nav.visible li:first-child {
+    width: 120vw;
+    height: 120vw;
+    top: -60vw;
+    right: -60vw;
+    z-index: 5;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+  }
+  
+  nav.visible li:nth-child(2) {
+    width: 100vw;
+    height: 100vw;
+    top: -50vw;
+    right: -50vw;
+    z-index: 6;
+    transition: all .6s ease-in-out;
+    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+  }
+  
+  nav.visible li:nth-child(3){
+    width: 80vw;
+    height: 80vw;
+    top: -40vw;
+    right: -40vw;
+    z-index: 7;
+    transition: all .7s ease-in-out;
+    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+  }
+  
+  nav.visible li:last-child{
+    width: 60vw;
+    height: 60vw;
+    top: -30vw;
+    right: -30vw;
+    z-index: 8;
+    transition: all .8s ease-in-out;
+    box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
+  }
+  
+  nav.visible li:first-child a {
+    line-height: 195vw !important;
+      text-indent: 16vw !important;
+      color: #1f1013;
+  
+  }
+  
+  nav.visible li:nth-child(2) a {
+    line-height: 160vw !important;
+    text-indent:16vw !important;
+    color: #1f1013;
+  }
+  
+  nav.visible li:nth-child(3) a {
+    line-height: 128vw !important;
+      text-indent: 14vw !important;
+      color: #1f1013;
+    
+  }
+  
+  nav.visible li:last-child a {
+    line-height: 90vw !important;
+    text-indent:17vw !important;
+    color: #1f1013;
+  }
+  
+
+  @keyframes top-bar {
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: rotate(45deg) translateY(0);
+    }
+  }
+  
+  @keyframes bottom-bar {
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: rotate(-45deg) translateY(0);
+    }
+  }
+
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+} 
+.flex-child:first-child {
+    margin-right: 20px;
+}
+.flex-child:last-child {
+    opacity: .8;
+} 
+
+.hexagon2 {
+    /*this smushes a square into a 60deg/120deg rhombus*/
+    position: absolute;
+    top: 6%;
+    width: 300px;
+    height: 173.20508px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background: url(https://thumbs.dreamstime.com/z/happy-independence-day-india-th-august-indian-freedom-fighters-vector-illustration-design-happy-independence-day-india-th-223603214.jpg); */
+    background-image: url("assets/Untitled\ \(Album\ Cover\).png");
+    background-size: 473.20508px auto;
+    background-position: center center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-left: solid 3px #fff;
+    border-right: solid 3px #fff;
+    /*cover up the box shadows */
+    /*this smushes a square into a 60deg/120deg rhombus*/
+    position: absolute;
+    width: 500px;
+    height: 288.67513px;
+    margin-top: 166.66667px;
+    margin-bottom: 166.66667px;
+    /* background: url(https://thumbs.dreamstime.com/z/happy-independence-day-india-th-august-indian-freedom-fighters-vector-illustration-design-happy-independence-day-india-th-223603214.jpg); */
+    background-image: url("assets/Untitled\ \(Album\ Cover\).png");
+    background-size: 788.67513px auto;
+    background-position: center center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-left: solid 3px #fff;
+    border-right: solid 3px #fff;
+    /*cover up the box shadows */
+  }
+  .hexagon2 .hex1,
+  .hexagon2 .hex2 {
+    position: absolute;
+    overflow: hidden;
+    width: 212.13203px;
+    height: 212.13203px;
+    left: 41.30127px;
+    /*for some reason this 1px correction is needed */
+    background: inherit;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-transform: scaleY(0.57735) rotate(-45deg);
+    -ms-transform: scaleY(0.57735) rotate(-45deg);
+    -webkit-transform: scaleY(0.57735) rotate(-45deg);
+    transform: scaleY(0.57735) rotate(-45deg);
+  }
+  .hexagon2 .hex1:after,
+  .hexagon2 .hex2:after {
+    /*counter rotate and un-scale the bg image*/
+    content: "";
+    position: absolute;
+    left: -44.30127px;
+    /*same correction as up above */
+    width: 300px;
+    height: 212.13203px;
+    top: 0;
+    background: inherit;
+    -moz-transform: rotate(45deg) scaleY(1.73205);
+    -ms-transform: rotate(45deg) scaleY(1.73205);
+    -webkit-transform: rotate(45deg) scaleY(1.73205);
+    transform: rotate(45deg) scaleY(1.73205);
+  }
+  .hexagon2 .hex1 {
+    top: -106.06602px;
+    border-top: solid 5.19615px #fff;
+    border-right: solid 5.19615px #fff;
+  }
+  .hexagon2 .hex1:after {
+    background-position: center 17%;
+    margin-top: -5.19615px;
+  }
+  .hexagon2 .hex2 {
+    bottom: -106.06602px;
+    border-left: solid 5.19615px #fff;
+    border-bottom: solid 5.19615px #fff;
+  }
+  .hexagon2 .hex2:after {
+    background-position: center 83%;
+    margin-left: -4.19615px;
+    /*that pesky single pixel correction again*/
+  }
+  .hexagon2:after {
+    content: "";
+    position: absolute;
+    top: 2.12132px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 168.96244px;
+    background: inherit;
+  }
+  .hexagon2 .hex1,
+  .hexagon2 .hex2 {
+    position: absolute;
+    overflow: hidden;
+    width: 353.55339px;
+    height: 353.55339px;
+    left: 70.16878px;
+    /*for some reason this 1px correction is needed */
+    background: inherit;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-transform: scaleY(0.57735) rotate(-45deg);
+    -ms-transform: scaleY(0.57735) rotate(-45deg);
+    -webkit-transform: scaleY(0.57735) rotate(-45deg);
+    transform: scaleY(0.57735) rotate(-45deg);
+  }
+  .hexagon2 .hex1:after,
+  .hexagon2 .hex2:after {
+    /*counter rotate and un-scale the bg image*/
+    content: "";
+    position: absolute;
+    left: -73.16878px;
+    /*same correction as up above */
+    width: 500px;
+    height: 353.55339px;
+    top: 0;
+    background: inherit;
+    -moz-transform: rotate(45deg) scaleY(1.73205);
+    -ms-transform: rotate(45deg) scaleY(1.73205);
+    -webkit-transform: rotate(45deg) scaleY(1.73205);
+    transform: rotate(45deg) scaleY(1.73205);
+  }
+  .hexagon2 .hex1 {
+    top: -176.7767px;
+    border-top: solid 5.19615px #fff;
+    border-right: solid 5.19615px #fff;
+  }
+  .hexagon2 .hex1:after {
+    background-position: center 17%;
+    margin-top: -5.19615px;
+  }
+  .hexagon2 .hex2 {
+    bottom: -176.7767px;
+    border-left: solid 5.19615px #fff;
+    border-bottom: solid 5.19615px #fff;
+  }
+  .hexagon2 .hex2:after {
+    background-position: center 83%;
+    margin-left: -4.19615px;
+    /*that pesky single pixel correction again*/
+  }
+  .hexagon2:after {
+    content: "";
+    position: absolute;
+    top: 2.12132px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 284.43249px;
+    background: inherit;
+  }
+
+.hexes {
+    overflow: hidden;
+    /* clearfix */
+  }
+  
+  .hexagon2{
+    float: left;
+    margin-left: 10em;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+  
+  .container {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 25%;
+  }
+  
+  .title {
+    font-weight: 800;
+    color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 110px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("https://startup-buzz.com/wp-content/uploads/2017/08/Inspiring-Quotes-for-Entrepreneurs-by-Indian-Freedom-Fighters-1.jpg") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position: relative;
+    text-align: left;
+    line-height: 100%;
+    letter-spacing: -8px;
+  }
+
+  .ptext{
+      top: 60%;
+      left: 28%;
+      color: white ;
+      width: 50vw;
+      background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      line-height: 35px;
+      font-size: large;
+      margin-top:2em;
+      padding-left: .5em;
+      padding-right: .5em;
+      border-radius: .25em;
+      font-family: 'Cabin', sans-serif;
+  }
+
+  .container2 {
+    position: relative;
+    top: 420%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+  }
+  
+  .container2 .button {
+    position: relative;
+    width: 100px;
+    height: fit-content;
+    margin: 40px 10px;
+    background: white;
+    font-family: 'Cabin', sans-serif;
+    color: rgba(0, 0, 0, 0.624);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 .button.shadow {
+    background: #ffffff93;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .container2 .button.shadow:hover {
+    cursor: pointer;
+  }
+  
+  .container2 .button.shadow:active {
+    background: #ffffff93;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    position: fixed;
+    top: 88%;
+    width:100%;
+    height:40px; 
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    color: #fff;
+    padding: 1em 0;
+    margin: 1em 0 2em;
+    text-align: center;
+  }
+
+  .fcontainer {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+}
+.gallery-wrap a{
+  font-size: large;
+  font-family: 'Cabin', sans-serif;
+  background-color: #000000;
+  width: fit-content;
+  color: #fff;
+  left: auto;
+}
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 7;
+}
+
+.item-1 {
+  background-image: url("https://m.media-amazon.com/images/I/819ECtz-eVL._SL1500_.jpg");
+}
+
+.item-2 {
+  background-image: url("https://image.shutterstock.com/image-vector/illustration-tricolor-india-background-nation-260nw-681485164.jpg");
+}
+
+.item-3 {
+  background-image: url("https://i.pinimg.com/originals/23/c1/46/23c146f1a587358e355c0e793fe0295f.jpg");
+}
+
+.item-4 {
+  background-image: url("https://hindi.careerindia.com/img/400x100/2021/12/speechonsardarvallabhbhaipatel-1639543671.jpg");
+}
+
+.item-5 {
+  background-image: url("https://m.media-amazon.com/images/I/71iOZRIqyOL._SL1200_.jpg");
+}
+.item-6 {
+  background-image: url("https://m.media-amazon.com/images/I/61ooRhrhFjS._SL1100_.jpg");
+}
+.item-7 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0969/9128/products/Lokmanya_Bal_Gangadhar_Tilak_-_Swarajya_-_Indian_Freedom_Fighter_Patriot_Painting_Poster.jpg?v=1579692221");
+}
+
+.fhistory{
+  width: 100vw;
+  padding: 1.5em;
+  margin: .5em;
+}
+.timeline {
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.timeline-title {
+  padding-bottom: 1px;
+  color: rgba(243, 214, 97, 0.958);
+}
+.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+  line-height: inherit;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+  padding-left: 40px;
+  position: relative;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 0.5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+.timeline-marker:before {
+  background: #FF6B6B;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #CCD5DB;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid #FF6B6B;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+  padding-bottom: 20px;
+}
+.timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+/*----- TIMELINE PERIOD -----*/
+.period {
+  padding: 0;
+}
+.period .timeline-info {
+  display: none;
+}
+.period .timeline-marker:before {
+  background: transparent;
+  content: "";
+  width: 15px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  top: 0;
+  bottom: 30px;
+  position: absolute;
+  border-top: 3px solid #CCD5DB;
+  border-bottom: 3px solid #CCD5DB;
+}
+.period .timeline-marker:after {
+  content: "";
+  height: 32px;
+  top: auto;
+}
+.period .timeline-content {
+  padding: 40px 0 70px;
+}
+.period .timeline-title {
+  margin: 0;
+}
